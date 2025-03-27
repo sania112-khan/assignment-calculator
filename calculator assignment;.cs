@@ -47,7 +47,10 @@ namespace Calculator
                         case "/":
                             result = num1 / num2;
                             Console.WriteLine($"Your result: {num1} / {num2} = " + result);
-                    break;
+                            break;
+                        case "//":
+                            result = num1 // num2;
+                            Console.WriteLine($"Your result: {num1} // {num2} = " + result);
                    
                 default:
                             Console.WriteLine("That was not a valid option");
